@@ -11,9 +11,7 @@ sheet.getPhysicalNumberOfRows();
 5. Function to get data from a cell
 sheet.getRow(position).getCell(0).getStringCellValue();
 sheet.getRow(position).getCell(1).getNumericCellValue();
-
 -------------------
-
 TestNG dependency
     <!-- https://mvnrepository.com/artifact/org.testng/testng -->
     <dependency>
@@ -22,9 +20,7 @@ TestNG dependency
       <version>7.0.0</version>
       <scope>test</scope>
     </dependency>
-    
 -------------------
-
 TestNG Listeners are interfaces in TestNG library which keep track of test execution.
 
 https://testng.org/doc/documentation-main.html
@@ -34,10 +30,8 @@ How to use listeners:
 2. Implement ITest interface
 3. Add unimplemented methods of ITest interface (in Java 8 the methods are already implemented in interface)
 4. Create a demo (java class) using @Listener(packageName.ClassName)
-
 -------------------
 How to set priorities for tests in TestNG:  @Test(priority = 1)
-
 -------------------
 How to group tests (it can also be applied on class level):
 
@@ -66,7 +60,6 @@ How to group tests (it can also be applied on class level):
         </classes>
     </test>
 </suite>
-
 -------------------
 Waits in Selenium
 
@@ -86,7 +79,6 @@ ChromeOptions options = new ChromeOptions();
 options.addArguments("--headless");
 WebDriver driver = new ChromeDriver(options);
 -------------------
-
 Automation of Non UI
 
 https://www.youtube.com/watch?v=3nPFjfpDwGU&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa&index=35
