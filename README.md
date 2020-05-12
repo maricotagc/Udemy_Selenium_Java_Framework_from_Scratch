@@ -80,7 +80,11 @@ options.addArguments("--headless");
 WebDriver driver = new ChromeDriver(options);
 -------------------
 Automation of Non UI
-
 https://www.youtube.com/watch?v=3nPFjfpDwGU&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa&index=35
+-------------------
+Automation of different platforms: 
+Use saucelabs (paid) or BrowserStack (paid)
+-------------------
+
 
 
